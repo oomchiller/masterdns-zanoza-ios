@@ -1,0 +1,65 @@
+/* Slipstream English strings */
+
+"Disconnected" = "Disconnected";
+"Connecting..." = "Connecting...";
+"Connected" = "Connected";
+"Disconnecting..." = "Disconnecting...";
+"Error" = "Error";
+"Error: %@" = "Error: %@";
+
+"Connect" = "Connect";
+"Disconnect" = "Disconnect";
+"Import" = "Import";
+"Importing..." = "Importing...";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Delete" = "Delete";
+"Dismiss" = "Dismiss";
+"Logs" = "Logs";
+"Copy" = "Copy";
+"Clear" = "Clear";
+
+"No profiles yet" = "No profiles yet";
+"Tap Import to add a Slipstream server using its delegated domain and encryption key." = "Tap Import to add a Slipstream server using its delegated domain and encryption key.";
+"Profiles" = "Profiles";
+"Untitled" = "Untitled";
+"No profile" = "No profile";
+"New profile" = "New profile";
+
+"Profile" = "Profile";
+"Profile name" = "Profile name";
+"Server" = "Server";
+"Encryption key" = "Encryption key";
+"Encryption method" = "Encryption method";
+"Local SOCKS5" = "Local SOCKS5";
+"SOCKS port" = "SOCKS port";
+"Require username/password" = "Require username/password";
+"Username" = "Username";
+"Password" = "Password";
+"Reliability" = "Reliability";
+"Resolver strategy" = "Resolver strategy";
+"Packet duplication: %d" = "Packet duplication: %d";
+"Setup duplication: %d" = "Setup duplication: %d";
+"Compression" = "Compression";
+"Upload" = "Upload";
+"Download" = "Download";
+"Logging" = "Logging";
+"Log level" = "Log level";
+"Resolvers (optional)" = "Resolvers (optional)";
+"Leave empty to use the bundled list of public resolvers." = "Leave empty to use the bundled list of public resolvers.";
+
+"Import profile" = "Import profile";
+"Delegated domain" = "Delegated domain";
+"During installation, you were asked for a domain. It must be the same delegated subdomain you configured in the NS record, for example v.example.com." = "During installation, you were asked for a domain. It must be the same delegated subdomain you configured in the NS record, for example v.example.com.";
+"Shared key" = "Shared key";
+"Must match the key configured on the MasterDnsVPN server." = "Must match the key configured on the MasterDnsVPN server.";
+"Optional" = "Optional";
+
+"Domain is required." = "Domain is required.";
+"Domain must be a delegated subdomain (e.g. v.example.com)." = "Domain must be a delegated subdomain (e.g. v.example.com).";
+"Encryption key is required." = "Encryption key is required.";
+"SOCKS port must be between 1024 and 65535." = "SOCKS port must be between 1024 and 65535.";
+"MasterDns Mobile.xcframework not embedded in the build." = "MasterDns Mobile.xcframework not embedded in the build.";
+
+"SOCKS5 127.0.0.1:%d" = "SOCKS5 127.0.0.1:%d";
+"No log lines yet." = "No log lines yet.";

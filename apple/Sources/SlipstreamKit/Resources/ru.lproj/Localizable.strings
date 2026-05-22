@@ -1,0 +1,65 @@
+/* Slipstream Russian strings */
+
+"Disconnected" = "Отключено";
+"Connecting..." = "Подключение...";
+"Connected" = "Подключено";
+"Disconnecting..." = "Отключение...";
+"Error" = "Ошибка";
+"Error: %@" = "Ошибка: %@";
+
+"Connect" = "Подключить";
+"Disconnect" = "Отключить";
+"Import" = "Импортировать";
+"Importing..." = "Импорт...";
+"Cancel" = "Отмена";
+"Done" = "Готово";
+"Delete" = "Удалить";
+"Dismiss" = "Закрыть";
+"Logs" = "Журнал";
+"Copy" = "Копировать";
+"Clear" = "Очистить";
+
+"No profiles yet" = "Профилей пока нет";
+"Tap Import to add a Slipstream server using its delegated domain and encryption key." = "Нажмите «Импортировать», чтобы добавить сервер Slipstream по делегированному домену и ключу шифрования.";
+"Profiles" = "Профили";
+"Untitled" = "Без названия";
+"No profile" = "Профиль не выбран";
+"New profile" = "Новый профиль";
+
+"Profile" = "Профиль";
+"Profile name" = "Название профиля";
+"Server" = "Сервер";
+"Encryption key" = "Ключ шифрования";
+"Encryption method" = "Метод шифрования";
+"Local SOCKS5" = "Локальный SOCKS5";
+"SOCKS port" = "Порт SOCKS";
+"Require username/password" = "Требовать логин и пароль";
+"Username" = "Имя пользователя";
+"Password" = "Пароль";
+"Reliability" = "Надёжность";
+"Resolver strategy" = "Стратегия резолверов";
+"Packet duplication: %d" = "Дублирование пакетов: %d";
+"Setup duplication: %d" = "Дублирование SYN-пакетов: %d";
+"Compression" = "Сжатие";
+"Upload" = "Загрузка";
+"Download" = "Скачивание";
+"Logging" = "Журналирование";
+"Log level" = "Уровень журнала";
+"Resolvers (optional)" = "Резолверы (опционально)";
+"Leave empty to use the bundled list of public resolvers." = "Оставьте пустым, чтобы использовать встроенный список публичных резолверов.";
+
+"Import profile" = "Импорт профиля";
+"Delegated domain" = "Делегированный домен";
+"During installation, you were asked for a domain. It must be the same delegated subdomain you configured in the NS record, for example v.example.com." = "При установке у вас запросили домен. Это должен быть тот же делегированный поддомен, который вы указали в NS-записи, например v.example.com.";
+"Shared key" = "Общий ключ";
+"Must match the key configured on the MasterDnsVPN server." = "Должен совпадать с ключом, заданным на сервере MasterDnsVPN.";
+"Optional" = "Опционально";
+
+"Domain is required." = "Требуется домен.";
+"Domain must be a delegated subdomain (e.g. v.example.com)." = "Домен должен быть делегированным поддоменом (например, v.example.com).";
+"Encryption key is required." = "Требуется ключ шифрования.";
+"SOCKS port must be between 1024 and 65535." = "Порт SOCKS должен быть в диапазоне 1024–65535.";
+"MasterDns Mobile.xcframework not embedded in the build." = "Mobile.xcframework MasterDns не встроен в сборку.";
+
+"SOCKS5 127.0.0.1:%d" = "SOCKS5 127.0.0.1:%d";
+"No log lines yet." = "Записей пока нет.";
