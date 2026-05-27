@@ -32,7 +32,7 @@ public struct SettingsView: View {
                         .onSubmit(onCommit)
                 }
             } header: {
-                Text(AppLocalization.string("Local SOCKS5"))
+                Text(AppLocalization.string("SOCKS5 proxy"))
             } footer: {
                 if isTunnelRunning {
                     Text(AppLocalization.string("Changes apply after reconnecting."))
@@ -41,9 +41,18 @@ public struct SettingsView: View {
             }
 
             Section {
+                Toggle(AppLocalization.string("Route system traffic through VPN"), isOn: $settings.systemVPNEnabled)
+            } header: {
+                Text(AppLocalization.string("VPN profile"))
+            } footer: {
+                Text(AppLocalization.string("Apple-signed builds only. Enabling the VPN profile on an unsigned build will require a reinstall."))
+                    .foregroundColor(.orange)
+            }
+
+            Section {
                 ResolversTextEditor(text: $settings.customResolvers)
             } header: {
-                Text(AppLocalization.string("Resolvers"))
+                Text(AppLocalization.string("DNS resolvers"))
             } footer: {
                 Text(AppLocalization.string("One resolver per line. Used by every profile; overrides the bundled list. Leave empty to fall back to the bundled public resolvers."))
             }

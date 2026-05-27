@@ -14,19 +14,22 @@ public struct AppSettings: Codable, Equatable {
     public var socksPass: String
     public var socksAuthEnabled: Bool
     public var customResolvers: String
+    public var systemVPNEnabled: Bool
 
     public init(
         socksPort: Int = Self.defaultSocksPort,
         socksUser: String = "zanoza",
         socksPass: String = "zanoza",
         socksAuthEnabled: Bool = false,
-        customResolvers: String = ""
+        customResolvers: String = "",
+        systemVPNEnabled: Bool = false
     ) {
         self.socksPort = Self.normalizedSocksPort(socksPort)
         self.socksUser = socksUser
         self.socksPass = socksPass
         self.socksAuthEnabled = socksAuthEnabled
         self.customResolvers = customResolvers
+        self.systemVPNEnabled = systemVPNEnabled
     }
 
     public init(from decoder: Decoder) throws {
@@ -37,6 +40,7 @@ public struct AppSettings: Codable, Equatable {
         socksPass = try container.decodeIfPresent(String.self, forKey: .socksPass) ?? "zanoza"
         socksAuthEnabled = try container.decodeIfPresent(Bool.self, forKey: .socksAuthEnabled) ?? false
         customResolvers = try container.decodeIfPresent(String.self, forKey: .customResolvers) ?? ""
+        systemVPNEnabled = try container.decodeIfPresent(Bool.self, forKey: .systemVPNEnabled) ?? false
     }
 
     public static func normalizedSocksPort(_ port: Int) -> Int {

@@ -39,6 +39,11 @@
 "Encryption key" = "Encryption key";
 "Encryption method" = "Encryption method";
 "Local SOCKS5" = "Local SOCKS5";
+"SOCKS5 proxy" = "SOCKS5 proxy";
+"DNS resolvers" = "DNS resolvers";
+"VPN profile" = "VPN profile";
+"Route system traffic through VPN" = "Route system traffic through VPN";
+"Apple-signed builds only. Enabling the VPN profile on an unsigned build will require a reinstall." = "Apple-signed builds only. Enabling the VPN profile on an unsigned build will require a reinstall.";
 "SOCKS port" = "SOCKS port";
 "Require username/password" = "Require username/password";
 "Username" = "Username";

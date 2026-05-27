@@ -39,6 +39,11 @@
 "Encryption key" = "Ключ шифрования";
 "Encryption method" = "Метод шифрования";
 "Local SOCKS5" = "Локальный SOCKS5";
+"SOCKS5 proxy" = "SOCKS5-прокси";
+"DNS resolvers" = "DNS-резолверы";
+"VPN profile" = "VPN-профиль";
+"Route system traffic through VPN" = "Направлять системный трафик через VPN";
+"Apple-signed builds only. Enabling the VPN profile on an unsigned build will require a reinstall." = "Только для приложений, подписанных действительными сертификатами Apple! При активации VPN-профиля в не подписанном приложении потребуется его переустановка!";
 "SOCKS port" = "Порт SOCKS";
 "Require username/password" = "Требовать логин и пароль";
 "Username" = "Имя пользователя";
